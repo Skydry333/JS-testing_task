@@ -1,6 +1,6 @@
 const squareRoot = require('./func_2')
 
-test('squareRoot function should be defined and truthy accept', () =>{
+test('squareRoot function should be defined and truthy', () =>{
     expect(squareRoot(0)).toBeDefined()
     expect(squareRoot(0)).toBeTruthy()
 
