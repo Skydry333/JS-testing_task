@@ -21,7 +21,7 @@ test('squareRoot function should not contain falsy values', () =>{
     expect(squareRoot(null)).not.toContain(null)
 })
 
-test('squareRoot function must return the sum of three squares of the accepted number', () =>{
+test('squareRoot function must return the sum of the squares of three numbers that are equal to the sum of accepted number', () =>{
     let result = [2, 2, 2]
     expect(squareRoot(12)).toEqual([result])
 })
