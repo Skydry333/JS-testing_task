@@ -12,7 +12,7 @@ function squareRoot(n) {
     return sum;
 }
 
-console.log(squareRoot(12));
+console.log(squareRoot(9));
 
 var module = module || {};
 module.exports = squareRoot;

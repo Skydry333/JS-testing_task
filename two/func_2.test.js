@@ -25,3 +25,13 @@ test('squareRoot function must return the sum of the squares of three numbers th
     let result = [2, 2, 2]
     expect(squareRoot(12)).toEqual([result])
 })
+
+test('squareRoot function must return the sum of the squares of all of group of three numbers that are equal to the sum of accepted number', () =>{
+    let result_1 = [
+        [1, 2, 2], 
+        [2, 1, 2], 
+        [2, 2, 1]
+    ]
+
+    expect(squareRoot(9)).toEqual(result_1)
+})
