@@ -2,7 +2,7 @@ function evenNumbers([...a]){
   let amount = 0;
   for (let k = 0; k <=a.length; k++) {
       if (a[k] % 2 !== 0 && Math.sign(a[k]) !== -1 && typeof a[k] === 'number') {
-        console.log( a[k]);
+        // console.log( a[k]);
         amount++;
       }
   }
